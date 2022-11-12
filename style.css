@@ -8,7 +8,16 @@ body {
   margin: 60px auto;
   max-width: 800px;
 }
-
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
 h1,
 h2,
 h3 {
@@ -88,4 +97,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.text-center {
+  text-align: center !important;
 }
